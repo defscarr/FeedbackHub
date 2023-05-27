@@ -40,7 +40,7 @@ module.exports = {
         'xFuchisia-600': '#AD1FEA',
         'xIndigo-600': '#4661E6',
         'xSlate-700': '#373F68',
-        'xSiolet-50': '#F2F4FF',
+        'xSiolet-50': '#F2F4FE',
         'xSlate-50': '#F7F8FD',
         'xSlate-600': '#3A4374',
         'xSlate-500':'#647196',
