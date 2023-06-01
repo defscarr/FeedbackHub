@@ -4,7 +4,7 @@ export default function SuggestionPage(){
 
   const generateList = () => {
     const listItems = [];
-    for (let i = 1; i <= 8; i++) {
+    for (let i = 1; i <= 3; i++) {
       listItems.push(
       <div key={i} className="px-8 py-7 bg-white hover:cursor-pointer  rounded-lg">
         <div className="flex flex-row">
@@ -19,8 +19,8 @@ export default function SuggestionPage(){
             </div>
           </div>
           <div className="ml-10 flex-1 flex flex-col">
-              <h3 className='leading-26 tracking-closer text-xSlate-600 text-26x font-bold'>Add tags for solutions</h3>
-              <p className="mt-1 mb-3 text-16x font-light text-xSlate-500 leading-23">Easier to search for solutions based on a specific stack.</p>
+              <h3 className='leading-26 tracking-closer text-xSlate-600 hover:text-xIndigo-600 text-26x font-bold'>Add tags for solutions</h3>
+              <p className="mt-1 mb-3 text-16x font-normal text-xSlate-500 leading-23">Easier to search for solutions based on a specific stack.</p>
 
               <div className="flex items-start">
                 <span className="bg-xSiolet-50 rounded-xl text-xIndigo-600 text-13x font-semibold">
@@ -44,18 +44,19 @@ export default function SuggestionPage(){
 
 
   return (
-    <main className="flex flex-row space-x-7 w-full">
+  <>
+    <main className="hidden md:flex md:flex-col md:space-y-7">
 
-      <section className="flex flex-col space-y-6 ">
-        <div className="flex flex-col bg-image bg-norepeat rounded-md">
+      <section className="md:flex md:space-x-6">
+
+        <div className="flex flex-col bg-image bg-norepeat rounded-md md:w-1/3">
           <span className="pl-6 pb-6 pt-16 pr-16 text-white">
             <h2 className="font-bold text-20x leading-29 tracking-closer">Frontend Mentor</h2>
             <span className="font-normal text-15x leading-22">Feedback Board</span>
           </span>
         </div>
 
-        <div>
-          <div className="py-6 pl-6 pr-12 bg-white hover:cursor-pointer rounded-lg">
+        <div className="py-6 pl-6 pr-12 bg-white  rounded-lg md:w-1/3">
             <div className="flex flex-col space-y-3.5">
               <div className="flex space-x-2 text-xIndigo-600 text-13x font-semibold">
                   <span className="bg-xIndigo-600 text-white rounded-xl">
@@ -86,9 +87,8 @@ export default function SuggestionPage(){
 
 
             </div>
-          </div>
         </div>
-        <div className="flex flex-col p-6 bg-white">
+        <div className="flex flex-col p-6 md:bg-white md:w-1/3">
           <div className="flex justify-between items-center">
             <h3 className="text-18x text-xSlate-600 font-bold leading-26 tracking-closer">Roadmap</h3>
             <span className="font-semibold text-13x leading-19 text-xIndigo-600 hover:cursor-pointer  hover:text-indigo-400 hover:opacity-75 underline">View</span>
@@ -97,23 +97,24 @@ export default function SuggestionPage(){
           <div className="flex flex-col mt-4 space-y-2 rounded-lg">
             <div className="flex items-center text-16x leading-23 text-xSlate-500">
               <div className="h-2 w-2 rounded-full bg-xOrange-300 mr-4"></div>
-              <span className="font-light   flex-1 ">Planned</span>
+              <span className="font-normal   flex-1 ">Planned</span>
               <span className=" font-bold">2</span>
             </div>
             <div className="flex items-center text-16x leading-23 text-xSlate-500">
               <div className="h-2 w-2 rounded-full bg-xFuchisia-600 mr-4"></div>
-              <span className="font-light   flex-1 ">In-Progress</span>
+              <span className="font-normal   flex-1 ">In-Progress</span>
               <span className=" font-bold">3</span>
             </div>
             <div className="flex items-center text-16x leading-23 text-xSlate-500">
               <div className="h-2 w-2 rounded-full bg-xBlue-400 mr-4"></div>
-              <span className="font-light   flex-1 ">Live</span>
+              <span className="font-normal   flex-1 ">Live</span>
               <span className=" font-bold">1</span>
             </div>
 
           </div>
         </div>
       </section>
+
 
       <section className="flex flex-col space-y-6 w-full">
         <div className="bg-xSlate-700 space-x-9 pl-6 pr-4 rounded-lg flex items-center"> 
@@ -124,8 +125,8 @@ export default function SuggestionPage(){
             <h3 className="font-bold text-18x leading-26 tracking-closer">6 Suggestions</h3>
           </div>
           <div className="flex-1 flex text-xSiolet-50 items-center">
-            <span className="font-light text-14x hover:cursor-pointer ">{`Sort by : `}</span>
-            <h4 className="font-bold text-14x mr-2 leading-20 tracking-close">{`  Most Upvotes`}</h4>
+            <span className="font-normal text-14x hover:cursor-pointer ">Sort by&nbsp;:&nbsp;</span>
+            <h4 className="font-bold text-14x mr-2 leading-20 tracking-close">Most Upvotes</h4>
             <span>
               <svg className="h-2 w-2" viewBox="0 0 9 7" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 1L5 5L9 1" stroke="white" stroke-width="2"/></svg>
             </span>
@@ -145,6 +146,10 @@ export default function SuggestionPage(){
 
     </main>
 
+
+
+
+  </>
 
   );
 }
