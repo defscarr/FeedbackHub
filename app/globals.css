@@ -4,5 +4,7 @@
 
 
 .bg-image{
-    background-image: url('/assets/suggestions/desktop/background-header.png');
+    background: url('/assets/suggestions/desktop/background-header.png');
+    background-size: cover;
+
 }
