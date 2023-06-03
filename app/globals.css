@@ -3,8 +3,12 @@
 @tailwind utilities;
 
 
-.bg-image{
+.bg-image-lg{
     background: url('/assets/suggestions/desktop/background-header.png');
     background-size: cover;
 
+}
+.bg-image-md{
+    background: url('/assets/suggestions/tablet/background-header.png');
+    background-size: cover;
 }
