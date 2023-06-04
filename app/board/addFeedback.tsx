@@ -19,8 +19,8 @@ export default function AddFeedback(){
                     <span className="font-bold leading-35 tracking-closer md:tracking-closest text-18x md:text-24x  text-xSlate-600">Create New Feedback</span>
 
                     <div>
-                        <h1 className="leading-20 tracking-close font-bold text-14x text-xSlate-600">Feedback Title</h1>
-                        <label className="text-14x font-normal text-xSlate-500">Add a short, descriptive headline</label>
+                        <h1 className="leading-20 tracking-close font-bold text-13x md:text-14x text-xSlate-600">Feedback Title</h1>
+                        <label className="text-13x md:text-14x font-normal text-xSlate-500">Add a short, descriptive headline</label>
 
                         <div className="h-12 rounded-md mb-2 mt-4">
                             <input id="message" className="resize-none w-full h-full  text-15x bg-xSlate-50 rounded-xl px-6 py-4 outline-none focus:ring-xIndigo-600 focus:border focus:border-xIndigo-600 text-xSlate-600" />
@@ -29,10 +29,10 @@ export default function AddFeedback(){
                     </div>
 
                     <div>
-                        <h1 className="leading-20 tracking-close font-bold text-14x text-xSlate-600">Category</h1>
-                        <label className="text-14x font-normal text-xSlate-500">Choose a category for your feedback</label>
+                        <h1 className="leading-20 tracking-close font-bold text-13x md:text-14x text-xSlate-600">Category</h1>
+                        <label className="text-13x md:text-14x font-normal text-xSlate-500">Choose a category for your feedback</label>
                         <div className="h-12 mt-4">
-                            <select id="countries" className="mt-4 rounded-md bg-xSlate-50 px-6 py-3 text-15x text-xIndigo-600 divide-x outline-none block w-full cursor-pointer focus:ring-xIndigo-600 focus:border focus:border-xIndigo-600">
+                            <select id="countries" className="mt-4 rounded-md bg-xSlate-50 px-6 py-3 text-13x md:text-15x text-xSlate-600 divide-x outline-none block w-full cursor-pointer focus:ring-xIndigo-600 focus:border focus:border-xIndigo-600">
                                 <option value="US">Feature</option>
                                 <option value="CA">UI</option>
                                 <option value="FR">UX</option>
@@ -41,8 +41,8 @@ export default function AddFeedback(){
                         </div>
                     </div>
                     <div>
-                        <h1 className="leading-20 tracking-close font-bold text-14x text-xSlate-600">Feedback Detail</h1>
-                        <label className="text-14x font-normal text-xSlate-500">Include any specific comments on what should be improved, added, etc.</label>
+                        <h1 className="leading-20 tracking-close font-bold text-13x md:text-14x text-xSlate-600">Feedback Detail</h1>
+                        <label className="text-13x md:text-14x font-normal text-xSlate-500">Include any specific comments on what should be improved, added, etc.</label>
 
                         <div className="h-30 md:h-24 rounded-md mb-2 mt-4">
                             <textarea id="message" rows={4} className="resize-none w-full h-full placeholder-slate-400 text-15x bg-xSiolet-50 rounded-xl px-6 py-4 outline-none focus:ring-xIndigo-600 focus:border focus:border-xIndigo-600 text-xSlate-600"></textarea>
@@ -52,10 +52,10 @@ export default function AddFeedback(){
 
                     <div className="flex flex-col space-y-4 md:flex-row md:justify-end md:space-x-4 mt-8">
                         <button className='flex bg-xSlate-600 hover:bg-xSlate-500 rounded-xl mt-4 justify-center'>
-                            <span className="px-6 py-3 leading-20 tracking-close font-bold text-14x text-xSiolet-50">Cancel</span>
+                            <span className="px-6 py-3 leading-20 tracking-close font-bold text-13x md:text-14x text-xSiolet-50">Cancel</span>
                         </button>
                         <button className='flex bg-xFuchisia-600 hover:bg-fuchsia-500 rounded-xl mt-4 justify-center'>
-                            <span className="px-6 py-3 leading-20 tracking-close font-bold text-14x text-xSiolet-50 text-center">Add Comment</span>
+                            <span className="px-6 py-3 leading-20 tracking-close font-bold text-13x md:text-14x text-xSiolet-50 text-center">Add Comment</span>
                         </button>
                     </div>
 
