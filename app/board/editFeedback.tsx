@@ -1,6 +1,6 @@
 export default function EditFeedback(){
     return (
-        <main className="h-screen w-screen px-96 pt-4 pb-48">
+        <main className="h-screen w-screen px-6 pt-8 pb-20 md:pt-14 md:px-28 md:pb-32 lg:px-96 lg:pt-24 lg:pb-48 overflow-auto">
             <section className="relative">
                 <button className="flex-1 flex items-center mb-10 hover:underline hover:decoration-xSlate-500">
                     <span className="">
@@ -16,7 +16,7 @@ export default function EditFeedback(){
 
 
                 <div className="flex flex-col px-10 pb-10 pt-12 space-y-6 bg-white rounded-xl -mt-8">
-                    <span className="pb-45 font-bold leading-35 tracking-closest text-24x text-xSlate-600">Editing ‘Add a dark theme option’</span>
+                    <span className="pb-45 font-bold leading-35 tracking closer md:tracking-closest text-18x md:text-24x text-xSlate-600">Editing ‘Add a dark theme option’</span>
 
                     <div>
                         <h1 className="leading-20 tracking-close font-bold text-14x text-xSlate-600">Feedback Title</h1>
@@ -58,23 +58,24 @@ export default function EditFeedback(){
                         <h1 className="leading-20 tracking-close font-bold text-14x text-xSlate-600">Feedback Detail</h1>
                         <label className="text-14x font-normal text-xSlate-500">Include any specific comments on what should be improved, added, etc.</label>
 
-                        <div className="h-24 rounded-md mb-2 mt-4">
+                        <div className="h-30 md:h-24 rounded-md mb-2 mt-4">
                             <textarea id="message" rows={4} className="resize-none w-full h-full placeholder-slate-400 text-15x bg-xSiolet-50 rounded-xl px-6 py-4 outline-none focus:ring-xIndigo-600 focus:border focus:border-xIndigo-600 text-xSlate-600"></textarea>
                         </div>
 
                     </div>
 
-                    <div className="mt-8 flex flex-row-reverse justify-between">
-                        <div className="flex flex-row-reverse justify-end space-x-4">
-                            <button className='flex bg-xFuchisia-600 hover:bg-fuchsia-500 rounded-lg mt-4 ml-4'>
-                                <span className="px-6 py-3 leading-20 tracking-close font-bold text-14x text-xSiolet-50">Add Comment</span>
+                    <div className="mt-8 flex flex-col md:flex md:flex-row-reverse md:justify-between">
+                        <div className="flex flex-col md:space-y-4 md:flex-row-reverse md:justify-end md:space-x-4">
+
+                            <button className='flex bg-xFuchisia-600 hover:bg-fuchsia-500 rounded-lg mt-4 md:ml-4 justify-center md:justify-normal'>
+                                <span className="px-6 py-3 leading-20 tracking-close font-bold text-14x text-xSiolet-50">Save Changes</span>
                             </button>
-                            <button className='flex bg-xSlate-600 hover:bg-xSlate-500 rounded-lg mt-4'>
-                                <span className="px-6 py-3 leading-20 tracking-close font-bold text-14x text-xSiolet-50">Cancel</span>
+                            <button className='flex bg-xSlate-600 hover:bg-xSlate-500 rounded-lg mt-4 justify-center md:justify-normal'>
+                                <span className="px-6 py-3 leading-20 tracking-close font-bold text-14x text-xSiolet-50 ">Cancel</span>
                             </button>
                         </div>
 
-                        <button className='flex bg-red-600 hover:bg-rose-400 rounded-lg mt-4'>
+                        <button className='flex bg-red-600 hover:bg-rose-400 rounded-lg mt-4 justify-center md:justify-normal'>
                             <span className="px-6 py-3 leading-20 tracking-close font-bold text-14x text-xSiolet-50">Delete</span>
                         </button>
                     </div>
