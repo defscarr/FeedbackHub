@@ -1,7 +1,7 @@
 export default function AddFeedback(){
     return (
-        <main className="h-screen w-screen px-96 pt-4 pb-48">
-            <section className="relative">
+        <main className="h-screen w-screen px-6 pt-8 pb-20  md:px-28 md:pt-14 md:pb-56 lg:px-96 lg:pt-23 lg:pb-48 overflow-scroll">
+            <section className="relative ">
                 <button className="flex-1 flex items-center mb-10 hover:underline hover:decoration-xSlate-500">
                     <span className="">
                         <svg width="7" height="10" xmlns="http://www.w3.org/2000/svg"><path d="M6 9L2 5l4-4" stroke="#4661E6" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>                        </span>
@@ -16,7 +16,7 @@ export default function AddFeedback(){
 
 
                 <div className="flex flex-col px-10 pb-10 pt-12 space-y-6 bg-white rounded-xl -mt-8">
-                    <span className="pb-45 leading-35 tracking-closest text-24x text-xSlate-600">Create New Feedback</span>
+                    <span className="pb-45 font-bold leading-35 tracking-closest text-18x text-xSlate-600">Create New Feedback</span>
 
                     <div>
                         <h1 className="leading-20 tracking-close font-bold text-14x text-xSlate-600">Feedback Title</h1>
@@ -44,18 +44,18 @@ export default function AddFeedback(){
                         <h1 className="leading-20 tracking-close font-bold text-14x text-xSlate-600">Feedback Detail</h1>
                         <label className="text-14x font-normal text-xSlate-500">Include any specific comments on what should be improved, added, etc.</label>
 
-                        <div className="h-24 rounded-md mb-2 mt-4">
+                        <div className="h-30 md:h-24 rounded-md mb-2 mt-4">
                             <textarea id="message" rows={4} className="resize-none w-full h-full placeholder-slate-400 text-15x bg-xSiolet-50 rounded-xl px-6 py-4 outline-none focus:ring-xIndigo-600 focus:border focus:border-xIndigo-600 text-xSlate-600"></textarea>
                         </div>
 
                     </div>
 
-                    <div className="flex flex-row justify-end space-x-4 mt-8">
-                        <button className='flex bg-xSlate-600 hover:bg-xSlate-500 rounded-lg mt-4'>
+                    <div className="flex flex-col space-y-4 md:flex-row md:justify-end md:space-x-4 mt-8">
+                        <button className='flex bg-xSlate-600 hover:bg-xSlate-500 rounded-xl mt-4 justify-center'>
                             <span className="px-6 py-3 leading-20 tracking-close font-bold text-14x text-xSiolet-50">Cancel</span>
                         </button>
-                        <button className='flex bg-xFuchisia-600 hover:bg-fuchsia-500 rounded-lg mt-4'>
-                            <span className="px-6 py-3 leading-20 tracking-close font-bold text-14x text-xSiolet-50">Add Comment</span>
+                        <button className='flex bg-xFuchisia-600 hover:bg-fuchsia-500 rounded-xl mt-4 justify-center'>
+                            <span className="px-6 py-3 leading-20 tracking-close font-bold text-14x text-xSiolet-50 text-center">Add Comment</span>
                         </button>
                     </div>
 
