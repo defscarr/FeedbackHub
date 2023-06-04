@@ -16,7 +16,7 @@ export default function AddFeedback(){
 
 
                 <div className="flex flex-col px-10 pb-10 pt-12 space-y-6 bg-white rounded-xl -mt-8">
-                    <span className="pb-45 font-bold leading-35 tracking-closest text-18x text-xSlate-600">Create New Feedback</span>
+                    <span className="font-bold leading-35 tracking-closer md:tracking-closest text-18x md:text-24x  text-xSlate-600">Create New Feedback</span>
 
                     <div>
                         <h1 className="leading-20 tracking-close font-bold text-14x text-xSlate-600">Feedback Title</h1>
