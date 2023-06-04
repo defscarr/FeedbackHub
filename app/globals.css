@@ -3,12 +3,17 @@
 @tailwind utilities;
 
 
-.bg-image-lg{
+.bg-image-desktop{
     background: url('/assets/suggestions/desktop/background-header.png');
     background-size: cover;
 
 }
-.bg-image-md{
+.bg-image-tablet{
     background: url('/assets/suggestions/tablet/background-header.png');
+    background-size: cover;
+}
+
+.bg-image-mobile{
+    background: url('/assets/suggestions/mobile/background-header.png');
     background-size: cover;
 }
