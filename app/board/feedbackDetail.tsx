@@ -39,8 +39,8 @@ export default function FeedbackDetail(){
                                         </div>
 
                                         <div className="flex items-start">
-                                            <button className='flex bg-xFuchisia-600 hover:bg-fuchsia-500 rounded-lg'>
-                                                <span className="px-6 py-3 leading-20 tracking-close font-bold text-14x text-xSiolet-50">Post Reply</span>
+                                            <button className='flex px-6 py-3 bg-xFuchisia-600 hover:bg-fuchsia-500 rounded-lg'>
+                                                <span className="leading-20 tracking-close font-bold text-14x text-xSiolet-50">Post Reply</span>
                                             </button>
                                         </div>
 
@@ -103,14 +103,14 @@ export default function FeedbackDetail(){
                     <div className="flex items-center pb-6">
                         <Image className='rounded-full mr-6' src={`/assets/user-images/image-elijah.jpg`} alt="Elijah Moss" width={40} height={40} />
                         <span className="flex-1">
-                            <h4 className="font-bold leading-20 tracking-close text-14x text-xSlate-600">Elijah Moss</h4>
-                            <p className="text-14x font-normal text-xSlate-500">@hexagon.pentagon</p>
+                            <h4 className="font-bold leading-20 tracking-close text-13x text-xSlate-600">Elijah Moss</h4>
+                            <p className="text-13x font-normal text-xSlate-500">@hexagon.pentagon</p>
                         </span>
                         <h6 className="font-semibold text-13x leading-19 cursor-pointer text-xIndigo-600 hover:underline hover:decoration-xIndigo-600">Reply</h6>                                
 
                     </div>
 
-                    <p className="leading-22 text-15x text-xSlate-500 font-normal pb-6">
+                    <p className="leading-22 text-13x text-xSlate-500 font-normal pb-6">
                         While waiting for dark mode, there are browser extensions that will also do the job. Search for "dark theme” followed by your browser. 
                         There might be a need to turn off the extension for sites with naturally black backgrounds though.
                     </p>
@@ -119,12 +119,12 @@ export default function FeedbackDetail(){
 
                                 <div className="flex justify-between space-x-4">
                                         <div className="flex-1 h-20 rounded-md mb-2">
-                                            <textarea id="message" rows={4} className="resize-none w-full h-full placeholder-slate-400  text-15x bg-xSiolet-50 rounded-xl px-6 py-4 outline-none focus:ring-xIndigo-600 focus:border focus:border-xIndigo-600 text-xSlate-600" placeholder="Type Your reply here"></textarea>
+                                            <textarea id="message" rows={4} className="resize-none w-full h-full placeholder-slate-400  text-13x bg-xSiolet-50 rounded-xl px-6 py-4 outline-none focus:ring-xIndigo-600 focus:border focus:border-xIndigo-600 text-xSlate-600" placeholder="Type Your reply here"></textarea>
                                         </div>
 
                                         <div className="flex items-start">
-                                            <button className='flex bg-xFuchisia-600 hover:bg-fuchsia-500 rounded-lg'>
-                                                <span className="px-6 py-3 leading-20 tracking-close font-bold text-14x text-xSiolet-50">Post Reply</span>
+                                            <button className='flex px-4 py-2 bg-xFuchisia-600 hover:bg-fuchsia-500 rounded-lg'>
+                                                <span className="leading-20 tracking-close font-bold text-13x text-xSiolet-50">Post Reply</span>
                                             </button>
                                         </div>
 
@@ -140,15 +140,15 @@ export default function FeedbackDetail(){
                         <div className="flex items-center pb-6">
                             <Image className='rounded-full mr-6' src={`/assets/user-images/image-elijah.jpg`} alt="Elijah Moss" width={40} height={40} />
                             <span className="flex-1">
-                                <h4 className="font-bold leading-20 tracking-close text-14x text-xSlate-600">Elijah Moss</h4>
-                                <p className="text-14x font-normal text-xSlate-500">@hexagon.pentagon</p>
+                                <h4 className="font-bold leading-20 tracking-close text-13x text-xSlate-600">Elijah Moss</h4>
+                                <p className="text-13x font-normal text-xSlate-500">@hexagon.pentagon</p>
                             </span>
                             <h6 className="font-semibold text-13x leading-19 cursor-pointer text-xIndigo-600 hover:underline hover:decoration-xIndigo-600">Reply</h6>                                
 
                         </div>
 
-                        <p className="leading-22 text-15x text-xSlate-500 font-normal">
-                            <span className="font-bold text-15x text-xFuchisia-600">@hummingbird1&nbsp;</span>
+                        <p className="leading-22 text-13x text-xSlate-500 font-normal">
+                            <span className="font-bold text-13x text-xFuchisia-600">@hummingbird1&nbsp;</span>
                             While waiting for dark mode, there are browser extensions that will also do the job. Search for "dark theme” followed by your browser. 
                             There might be a need to turn off the extension for sites with naturally black backgrounds though.
                         </p>
@@ -173,11 +173,11 @@ export default function FeedbackDetail(){
                         <button className="flex-1 flex items-center">
                             <span className="">
                                 <svg width="7" height="10" xmlns="http://www.w3.org/2000/svg"><path d="M6 9L2 5l4-4" stroke="#4661E6" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>                        </span>
-                            <span className='ml-4 leading-20 tracking-close text-14x text-xSlate-500 font-bold hover:underline'>Go Back</span>
+                            <span className='ml-4 leading-20 tracking-close text-13x md:text-14x text-xSlate-500 font-bold hover:underline'>Go Back</span>
                         </button>
 
-                        <button className='bg-xIndigo-600 hover:bg-indigo-400 rounded-lg px-6 py-3'>
-                            <span className="leading-20 tracking-close text-14x font-bold text-xSiolet-50">Edit Feedback</span>
+                        <button className='bg-xIndigo-600 hover:bg-indigo-400 rounded-lg px-4 py-2 md:px-6 md:py-3'>
+                            <span className="leading-20 tracking-close text-13x md:text-14x font-bold text-xSiolet-50">Edit Feedback</span>
                         </button>
 
 
@@ -191,12 +191,12 @@ export default function FeedbackDetail(){
                                         <span>
                                             <svg className="h-2 w-2 stroke-xIndigo-600" viewBox="0 0 9 7" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 6l4-4 4 4"  stroke-width="2"/></svg>
                                         </span>
-                                        <h1 className="font-bold text-24 text-xSlate-600 leading-35 tracking-closest">99</h1>
+                                        <h1 className="font-bold text-13x text-xSlate-600 leading-35 tracking-closest">99</h1>
                                     </div>
                                 </div>
                             </div>
                             <div className="ml-10 flex-1 flex flex-col">
-                                <h3 className='leading-26 tracking-closer text-xSlate-600 text-26x font-bold'>Add tags for solutions</h3>
+                                <h3 className='leading-26 tracking-closer text-xSlate-600 text-18x font-bold'>Add tags for solutions</h3>
                                 <p className="mt-1 mb-3 text-16x font-normal text-xSlate-500 leading-23">Easier to search for solutions based on a specific stack.</p>
 
                                 <div className="flex items-start">
@@ -209,15 +209,15 @@ export default function FeedbackDetail(){
                                 <span>
                                     <svg className="h-4 w-5 fill-slate-300" xmlns="http://www.w3.org/2000/svg"><path d="M2.62 16H1.346l.902-.91c.486-.491.79-1.13.872-1.823C1.036 11.887 0 9.89 0 7.794 0 3.928 3.52 0 9.03 0 14.87 0 18 3.615 18 7.455c0 3.866-3.164 7.478-8.97 7.478-1.017 0-2.078-.137-3.025-.388A4.705 4.705 0 012.62 16z" /></svg>
                                 </span>
-                                <span className="text-16x font-bold text-xSlate-600">2</span>
+                                <span className="text-13x font-bold text-xSlate-600">2</span>
                             </div>
                         </div>
                     </header>
 
 {/* Mobile Version start */}
                     <header className="px-6 py-6 bg-white rounded-lg flex flex-col md:hidden">
-                        <h3 className='leading-26 mb-2 tracking-closer text-xSlate-600 text-26x font-bold'>Add tags for solutions</h3>
-                        <p className="mt-1 mb-2.5 text-16x font-normal text-xSlate-500 leading-23">Easier to search for solutions based on a specific stack.</p>
+                        <h3 className='leading-26 mb-2 tracking-closer text-xSlate-600 text-13x font-bold'>Add tags for solutions</h3>
+                        <p className="mt-1 mb-2.5 text-13x font-normal text-xSlate-500 leading-23">Easier to search for solutions based on a specific stack.</p>
                         <div className="flex items-start mb-3.5">
                             <span className="bg-xSiolet-50 rounded-xl text-xIndigo-600 text-13x font-semibold">
                                 <h6 className="px-4 py-2">Enhancement</h6>
@@ -231,14 +231,14 @@ export default function FeedbackDetail(){
                                     <span>
                                         <svg className="h-2 w-2 stroke-xIndigo-600" viewBox="0 0 9 7" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 6l4-4 4 4"  stroke-width="2"/></svg>
                                     </span>
-                                    <h1 className="font-bold text-24 text-xSlate-600 leading-35 tracking-closest ml-4">99</h1>
+                                    <h1 className="font-bold text-13x text-xSlate-600  tracking-closest ml-4">99</h1>
                                 </div>
                             </div>
                             <div className="flex flex-row space-x-2 items-center">
                                     <span>
                                         <svg className="h-4 w-5 fill-slate-300" xmlns="http://www.w3.org/2000/svg"><path d="M2.62 16H1.346l.902-.91c.486-.491.79-1.13.872-1.823C1.036 11.887 0 9.89 0 7.794 0 3.928 3.52 0 9.03 0 14.87 0 18 3.615 18 7.455c0 3.866-3.164 7.478-8.97 7.478-1.017 0-2.078-.137-3.025-.388A4.705 4.705 0 012.62 16z" /></svg>
                                     </span>
-                                    <span className="text-16x font-bold text-xSlate-600">2</span>
+                                    <span className="text-13x font-bold text-xSlate-600">2</span>
                             </div>
 
 
@@ -271,14 +271,14 @@ export default function FeedbackDetail(){
 
                 <footer className="flex flex-col bg-white rounded-xl px-6 pb-8">
                     <p className="leading-26 my-8 tracking-closer text-18x font-bold text-xSlate-600">Add Comment</p>
-                    <div className="h-20 rounded-md mb-2">
-                        <textarea id="message" rows={4} className="resize-none w-full h-full placeholder-slate-400  text-15x bg-xSiolet-50 rounded-xl px-6 py-4 outline-none focus:ring-xIndigo-600 focus:border focus:border-xIndigo-600 text-xSlate-600" placeholder="Type Your comment here"></textarea>
+                    <div className="h-20 rounded-md">
+                        <textarea id="message" rows={4} className="resize-none w-full h-full placeholder-slate-400  text-13x md:text-15x bg-xSiolet-50 rounded-xl px-6 py-4 outline-none focus:ring-xIndigo-600 focus:border focus:border-xIndigo-600 text-xSlate-600" placeholder="Type Your comment here"></textarea>
 
                     </div>
-                    <div className="flex flex-row justify-between">
-                        <span className="leading-22 text-15x text-xSlate-500 font-normal mt-7">205 Characters left</span>
-                        <button className='flex bg-xFuchisia-600 hover:bg-fuchsia-500 rounded-lg mt-4'>
-                            <span className="px-6 py-3 leading-20 tracking-close font-bold text-14x text-xSiolet-50">Post Comment</span>
+                    <div className="flex justify-between items-center pt-4">
+                        <span className="leading-22 text-13x md:text-15x text-xSlate-500 font-normal">205 Characters left</span>
+                        <button className='flex bg-xFuchisia-600 hover:bg-fuchsia-500 rounded-lg mt-4 justify-self-center'>
+                            <span className="px-4 py-2 md:px-6 md:py-3 leading-20 tracking-close font-bold text-13x md:text-14x text-xSiolet-50">Post Comment</span>
                         </button>
                     </div>
                 </footer>
