@@ -50,8 +50,8 @@ export default function SuggestionPage(){
       cards.push(
 
         <header className="px-6 py-6 bg-white rounded-lg flex flex-col md:hidden">
-          <h3 className='leading-26 mb-2 tracking-closer text-xSlate-600 text-26x font-bold'>Add tags for solutions</h3>
-          <p className="mt-1 mb-2.5 text-16x font-normal text-xSlate-500 leading-23">Easier to search for solutions based on a specific stack.</p>
+          <h3 className='leading-26 mb-2 tracking-closer text-xSlate-600 text-13x font-bold'>Add tags for solutions</h3>
+          <p className="mt-1 mb-2.5 text-13x font-normal text-xSlate-500">Easier to search for solutions based on a specific stack.</p>
           <div className="flex items-start mb-3.5">
               <span className="bg-xSiolet-50 rounded-xl text-xIndigo-600 text-13x font-semibold">
                   <h6 className="px-4 py-2">Enhancement</h6>
@@ -65,14 +65,14 @@ export default function SuggestionPage(){
                       <span>
                           <svg className="h-2 w-2 stroke-xIndigo-600" viewBox="0 0 9 7" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 6l4-4 4 4"  stroke-width="2"/></svg>
                       </span>
-                      <h1 className="font-bold text-24 text-xSlate-600 leading-35 tracking-closest ml-4">99</h1>
+                      <h1 className="font-bold text-13x text-xSlate-600 tracking-close ml-4">99</h1>
                   </div>
               </div>
               <div className="flex flex-row space-x-2 items-center">
                       <span>
                           <svg className="h-4 w-5 fill-slate-300" xmlns="http://www.w3.org/2000/svg"><path d="M2.62 16H1.346l.902-.91c.486-.491.79-1.13.872-1.823C1.036 11.887 0 9.89 0 7.794 0 3.928 3.52 0 9.03 0 14.87 0 18 3.615 18 7.455c0 3.866-3.164 7.478-8.97 7.478-1.017 0-2.078-.137-3.025-.388A4.705 4.705 0 012.62 16z" /></svg>
                       </span>
-                      <span className="text-16x font-bold text-xSlate-600">2</span>
+                      <span className="text-13x font-bold text-xSlate-600">2</span>
               </div>
 
 
@@ -95,8 +95,8 @@ export default function SuggestionPage(){
 
             <div className="lg:flex-none rounded-none flex-1 flex items-center justify-between md:flex-col px-6 py-4 md:pt-24  md:pl-6 md:pr-11 md:pb-6 lg:pt-16 lg:pr-20  bg-image-mobile lg:bg-image-desktop md:bg-image-tablet bg-norepeat md:rounded-lg"> 
               <div className="flex-nowrap text-white">
-                <h2 className="font-bold text-20x leading-29 tracking-closer">Frontend Mentor</h2>
-                <span className="font-normal text-15x leading-22">Feedback Board</span>
+                <h2 className="font-bold text-15x md:text-20x leading-29 tracking-close md:tracking-closer">Frontend Mentor</h2>
+                <span className="font-normal text-13x md:text-15x leading-22">Feedback Board</span>
               </div>
 
               <span className="md:hidden">
@@ -184,15 +184,15 @@ export default function SuggestionPage(){
               <h3 className="font-bold text-18x leading-26 tracking-closer">6 Suggestions</h3>
             </div>
             <div className="flex-1 flex text-xSiolet-50 items-center">
-              <span className="font-normal text-14x hover:cursor-pointer ">Sort by&nbsp;:&nbsp;</span>
-              <h4 className="font-bold text-14x mr-2 leading-20 tracking-close">Most Upvotes</h4>
+              <span className="font-normal text-13x md:text-14x hover:cursor-pointer ">Sort by&nbsp;:&nbsp;</span>
+              <h4 className="font-bold text-13x md:text-14x mr-2 leading-20 tracking-close">Most Upvotes</h4>
               <span>
                 <svg className="h-2 w-2" viewBox="0 0 9 7" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 1L5 5L9 1" stroke="white" stroke-width="2"/></svg>
               </span>
             </div>
 
-            <button className="flex items-center bg-xFuchisia-600 hover:bg-fuchsia-500 hover:cursor-pointer  rounded-lg">
-              <h2 className="font-bold text-14x text-xSiolet-50 leading-20 tracking-closest px-6 py-3">+ Add Feedback</h2>
+            <button className="flex px-4 py-2  md:px-6 md:py-3 items-center bg-xFuchisia-600 hover:bg-fuchsia-500 hover:cursor-pointer  rounded-lg">
+              <h2 className="font-bold text-13x md:text-14x text-xSiolet-50 leading-20 tracking-closest ">+ Add Feedback</h2>
             </button>
 
           </header>
