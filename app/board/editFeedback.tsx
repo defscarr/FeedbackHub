@@ -6,7 +6,7 @@ export default function EditFeedback(){
                     <span className="">
                         <svg width="7" height="10" xmlns="http://www.w3.org/2000/svg"><path d="M6 9L2 5l4-4" stroke="#4661E6" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
                     </span>
-                    <span className='ml-4 leading-20 tracking-close text-14x text-xSlate-500 font-bold '>Go Back</span>
+                    <span className='ml-4 leading-20 tracking-close text-13x md:text-14x text-xSlate-500 font-bold '>Go Back</span>
                 </button>
 
                 <p>
@@ -19,20 +19,20 @@ export default function EditFeedback(){
                     <span className="pb-45 font-bold leading-35 tracking closer md:tracking-closest text-18x md:text-24x text-xSlate-600">Editing ‘Add a dark theme option’</span>
 
                     <div>
-                        <h1 className="leading-20 tracking-close font-bold text-14x text-xSlate-600">Feedback Title</h1>
-                        <label className="text-14x font-normal text-xSlate-500">Add a short, descriptive headline</label>
+                        <h1 className="leading-20 tracking-close font-bold text-13x md:text-14x text-xSlate-600">Feedback Title</h1>
+                        <label className="text-13x md:text-14x font-normal text-xSlate-500">Add a short, descriptive headline</label>
 
                         <div className="h-12 rounded-md mb-2 mt-4">
-                            <input id="message" className="resize-none w-full h-full  text-15x bg-xSlate-50 rounded-xl px-6 py-4 outline-none focus:ring-xIndigo-600 focus:border focus:border-xIndigo-600 text-xSlate-600" />
+                            <input id="message" className="resize-none w-full h-full  text-13x md:text-15x bg-xSlate-50 rounded-xl px-6 py-4 outline-none focus:ring-xIndigo-600 focus:border focus:border-xIndigo-600 text-xSlate-600" />
                         </div>
 
                     </div>
 
                     <div>
-                        <h1 className="leading-20 tracking-close font-bold text-14x text-xSlate-600">Category</h1>
-                        <label className="text-14x font-normal text-xSlate-500">Choose a category for your feedback</label>
+                        <h1 className="leading-20 tracking-close font-bold text-13x md:text-14x text-xSlate-600">Category</h1>
+                        <label className="text-13x md:text-14x font-normal text-xSlate-500">Choose a category for your feedback</label>
                         <div className="h-12 mt-4">
-                            <select id="countries" className="mt-4 rounded-md bg-xSlate-50 px-6 py-3 text-15x text-xIndigo-600 divide-x outline-none block w-full cursor-pointer focus:ring-xIndigo-600 focus:border focus:border-xIndigo-600">
+                            <select id="countries" className="mt-4 rounded-md bg-xSlate-50 px-6 py-3 text-13x md:text-15x text-xSlate-600 divide-x outline-none block w-full cursor-pointer focus:ring-xIndigo-600 focus:border focus:border-xIndigo-600">
                                 <option value="Feature">Feature</option>
                                 <option value="UI">UI</option>
                                 <option value="UX">UX</option>
@@ -42,10 +42,10 @@ export default function EditFeedback(){
                     </div>
 
                     <div>
-                        <h1 className="leading-20 tracking-close font-bold text-14x text-xSlate-600">Update Status</h1>
-                        <label className="text-14x font-normal text-xSlate-500">Change feedback status</label>
+                        <h1 className="leading-20 tracking-close font-bold text-13x md:text-14x text-xSlate-600">Update Status</h1>
+                        <label className="text-13x md:text-14x font-normal text-xSlate-500">Change feedback status</label>
                         <div className="h-12 mt-4">
-                            <select id="countries" className="mt-4 rounded-md bg-xSlate-50 px-6 py-3 text-15x text-xIndigo-600 divide-x outline-none block w-full cursor-pointer focus:ring-xIndigo-600 focus:border focus:border-xIndigo-600">
+                            <select id="countries" className="mt-4 rounded-md bg-xSlate-50 px-6 py-3 text-13x md:text-15x text-xSlate-600 divide-x outline-none block w-full cursor-pointer focus:ring-xIndigo-600 focus:border focus:border-xIndigo-600">
                                 <option value="Suggestion">Suggestion</option>
                                 <option value="Planned">Planned</option>
                                 <option value="In-Progress">In-Progress</option>
@@ -55,11 +55,11 @@ export default function EditFeedback(){
                     </div>
 
                     <div>
-                        <h1 className="leading-20 tracking-close font-bold text-14x text-xSlate-600">Feedback Detail</h1>
-                        <label className="text-14x font-normal text-xSlate-500">Include any specific comments on what should be improved, added, etc.</label>
+                        <h1 className="leading-20 tracking-close font-bold text-13x md:text-14x text-xSlate-600">Feedback Detail</h1>
+                        <label className="text-13x md:text-14x font-normal text-xSlate-500">Include any specific comments on what should be improved, added, etc.</label>
 
                         <div className="h-30 md:h-24 rounded-md mb-2 mt-4">
-                            <textarea id="message" rows={4} className="resize-none w-full h-full placeholder-slate-400 text-15x bg-xSiolet-50 rounded-xl px-6 py-4 outline-none focus:ring-xIndigo-600 focus:border focus:border-xIndigo-600 text-xSlate-600"></textarea>
+                            <textarea id="message" rows={4} className="resize-none w-full h-full placeholder-slate-600 text-13x md:text-15x bg-xSiolet-50 rounded-xl px-6 py-4 outline-none focus:ring-xIndigo-600 focus:border focus:border-xIndigo-600 text-xSlate-600"></textarea>
                         </div>
 
                     </div>
@@ -68,15 +68,15 @@ export default function EditFeedback(){
                         <div className="flex flex-col md:space-y-4 md:flex-row-reverse md:justify-end md:space-x-4">
 
                             <button className='flex bg-xFuchisia-600 hover:bg-fuchsia-500 rounded-lg mt-4 md:ml-4 justify-center md:justify-normal'>
-                                <span className="px-6 py-3 leading-20 tracking-close font-bold text-14x text-xSiolet-50">Save Changes</span>
+                                <span className="px-6 py-3 leading-20 tracking-close font-bold text-13x md:text-14x text-xSiolet-50">Save Changes</span>
                             </button>
                             <button className='flex bg-xSlate-600 hover:bg-xSlate-500 rounded-lg mt-4 justify-center md:justify-normal'>
-                                <span className="px-6 py-3 leading-20 tracking-close font-bold text-14x text-xSiolet-50 ">Cancel</span>
+                                <span className="px-6 py-3 leading-20 tracking-close font-bold text-13x md:text-14x text-xSiolet-50 ">Cancel</span>
                             </button>
                         </div>
 
                         <button className='flex bg-red-600 hover:bg-rose-400 rounded-lg mt-4 justify-center md:justify-normal'>
-                            <span className="px-6 py-3 leading-20 tracking-close font-bold text-14x text-xSiolet-50">Delete</span>
+                            <span className="px-6 py-3 leading-20 tracking-close font-bold text-13x md:text-14x text-xSiolet-50">Delete</span>
                         </button>
                     </div>
 
