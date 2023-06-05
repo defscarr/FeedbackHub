@@ -24,13 +24,13 @@ export default function Roadmap(){
                             <span>
                                 <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M1 6l4-4 4 4" stroke="#4661E6" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
                             </span>
-                            <h1 className="ml-2 font-bold text-x13x leading-19 tracking-close text-xSlate-600">4</h1>
+                            <h1 className="ml-2 font-bold text-13x lg:text-15x leading-19 tracking-close text-xSlate-600">4</h1>
                         </span>
                     </div>
 
                     <span className="flex space-x-2 items-center">
                         <svg width="18" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M2.62 16H1.346l.902-.91c.486-.491.79-1.13.872-1.823C1.036 11.887 0 9.89 0 7.794 0 3.928 3.52 0 9.03 0 14.87 0 18 3.615 18 7.455c0 3.866-3.164 7.478-8.97 7.478-1.017 0-2.078-.137-3.025-.388A4.705 4.705 0 012.62 16z" fill="#CDD2EE" fill-rule="nonzero"/></svg>
-                        <h1 className="leading-26 tracking-closer font-bold text-xSlate-600 text-13x lg:text-16x">4</h1>
+                        <h1 className="leading-26 tracking-closer font-bold text-xSlate-600 text-13x lg:text-15x">4</h1>
                     </span>
                 </div>
             </div>
@@ -44,7 +44,7 @@ export default function Roadmap(){
         <main className="flex flex-col pt-0 px-0 pb-24 md:pt-14 md:px-10 md:pb-28 lg:px-40 lg:pt-20 lg:pb-20 space-y-0 md:space-y-12 h-screen w-screen overflow-auto">
             <header className="flex flex-row bg-xSlate-700 px-8 py-6 rounded-none md:rounded-xl">
                 <div className="flex-1 flex flex-col text-white">
-                    <button className="flex items-center hover:underline hover:decoration-xSlate-500">
+                    <button className="flex items-center hover:underline hover:decoration-white">
                         <span className="-mt-1">
                             <svg width="7" height="10" xmlns="http://www.w3.org/2000/svg"><path d="M6 9L2 5l4-4" stroke="#CDD2EE" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
                         </span>
